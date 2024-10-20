@@ -1,1 +1,10 @@
- 
+ .containers{
+     grid-auto-columns: auto;
+     grid-template-rows: minmax();
+     flex-wrap: wrap;
+     width: 20%;
+    float: left;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+ }

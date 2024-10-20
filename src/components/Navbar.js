@@ -1,8 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react'; //when class based component then use must this line
+import PropTypes from 'prop-types';
 
 
-export default function Navbar(props) {
+
+export function Navbar(props) {
   return (
    
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -65,3 +66,19 @@ Navbar.defaultProps={
     title:'icoder',
     abouttext:'About'
 };
+
+export  function Card(prop) {
+  return (
+    <div>
+      <div className="card containers" >
+  <img src="https://tse4.mm.bing.net/th?id=OIP.hZrUmaARzP6obZEGWAmrGQHaEy&pid=Api&P=0&h=180" className="card-img-top" style={{ width: '100%' }} alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="/" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </div>
+  )
+}
+  
