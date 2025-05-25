@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import  './component/Textform.css';
 import App from './App';
+import {Person,Teacher} from './App';
+
 import reportWebVitals from './reportWebVitals';
+import Navbar from './component/Navbar';
+import Textform from './component/Textform';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     
+    <Navbar title='Navbar'/>
+    <Textform />
+      
   </React.StrictMode>
 );
 
